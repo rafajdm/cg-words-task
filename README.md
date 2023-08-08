@@ -3,8 +3,8 @@
 This is a simple code that connects to RapidAPI (wordsAPI) to obtain a list of synonyms from a given word. Code was written in Java Spring Boot with WebFlux (webclient) to consume to WordsAPI and Spring MVC to expose a REST API where the service can be consumed.
 
 Endpoint Data:
-GET http://{server-ip:port}/api/v1/synonyms/{word}
-Response String JsonObject array[] 
+- GET http://{server-ip:port}/api/v1/synonyms/{word}
+- Response String JsonObject array[] 
 
 ## Requirements
 
