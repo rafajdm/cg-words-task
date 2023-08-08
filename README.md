@@ -4,7 +4,10 @@ This is a simple code that connects to RapidAPI (wordsAPI) to obtain a list of s
 
 Endpoint Data:
 - GET http://{server-ip:port}/api/v1/synonyms/{word}
-- Response String JsonObject array[] 
+- Response String JsonObject array[]
+
+Notes:
+- RapidAPI credentials must be provided in application.properties
 
 ## Requirements
 
